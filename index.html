@@ -11,12 +11,30 @@
 <body>
 
     <header>
-        <div class="header">
-            <h2>Lyris </h2>
-            <nav class="header-menu">
-                <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Projeto</a></li>
-            </nav>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
         </div>
     </header>
 
@@ -57,24 +75,27 @@
         <h1>Meus projetos</h1>
         <div class="projetos">
             <div>
-                <img src="img/Captura da Web_2-12-2022_192546_127.0.0.1.jpeg" alt="">
+                <img src="img/print.jpeg" alt="">
                 <p>Clique na imagem</p>
             </div>
             <div>
-                <img src="img/Captura da Web_2-12-2022_192546_127.0.0.1.jpeg" alt="">
+                <img src="img/print1.jpeg" alt="">
                 <p>Clique na imagem</p>
             </div>
             <div>
-                <img src="img/Captura da Web_2-12-2022_192546_127.0.0.1.jpeg" alt="">
+                <img src="img/print3.jpeg" alt="">
                 <p>Clique na imagem</p>
             </div>
             <div>
-                <img src="img/Captura da Web_2-12-2022_192546_127.0.0.1.jpeg" alt="">
+                <img src="img/print4.jpeg" alt="">
                 <p>Clique na imagem</p>
             </div>
         </div>
     </section>
 
-    
+    <script src="script.js"></script>
+
+   
+
 </body>
 </html>
