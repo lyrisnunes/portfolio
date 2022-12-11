@@ -10,7 +10,9 @@
 
 img{
     display: block;
-    width: 100%;
+    height: 400px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .logo{
@@ -93,7 +95,7 @@ main{
     align-items: center;
     gap: 100px;
     padding: 2rem;
-    height: 65vh;
+    height: 60vh;
     max-width: 1400px;
     margin: 0 auto;
     color: white;
@@ -168,6 +170,41 @@ main{
 
 /**/
 
+section{
+    background-color: #171C24;
+}
+
+.frase{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    max-width: 1500px;
+    margin: 0 auto;
+    color: aliceblue;
+    height: 75vh;
+}
+
+.frase h2::before{
+    content: '';
+    width: 2%;
+    height: 5px;
+    background-color: violet;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.frase h2::after{
+    content: '';
+    width: 2%;
+    height: 5px;
+    background-color: violet;
+    display: inline-block;
+    margin-left: 10px;
+}
+/**/
+
 .fundo{
     text-align: center;
     background-color: #171C24;
@@ -213,47 +250,77 @@ main{
     }
 
     .habilidades i{
-        font-size: 1.3rem;
+        font-size: 1.9rem;
     }
 }
 
 /**/
 
+.fundo h2{
+    padding: 3rem;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
 .projetos{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 1fr 1fr  1fr 1fr ;
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.144);
     max-width: 1400px;
     margin: 0 auto;
- 
+    padding: .5rem;
+    gap: 20px;
+    border-radius: 5px;
 }
 
 .projetos div{
     display: grid;
-    align-items: center;
-    margin: 0 1rem;
-    color: aliceblue;
+    gap: 10px;
+    padding: 1rem;
+    text-align: center;   
 }
 
+.projetos div li{
+    background-color: #171C24;
+    text-align: center;
+}
 
+.projetos .botao{
+    background-color: aliceblue;
+    color: #1c62d3;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
 
-@media(max-width:650px){
+.projetos .botao a{
+    color: #171C24;
+}
 
-    .fundo h1{
-        padding: 3rem 0;
-        font-size: 1.5rem;
-    }
-
+@media(max-width:1060px){
     .projetos{
-        grid-template-columns:1fr 1fr;
+        grid-template-columns: 1fr 1fr  1fr;
+       
     }
-
-    .projetos div{
-        margin:  1rem;
-        color: aliceblue;
-    }
+    
 }
 
-/**/
+@media(max-width:880px){
+    .projetos{
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    
+}
+
+@media(max-width:610px){
+    .projetos{
+        grid-template-columns: 1fr ;
+       
+    }
+    
+}
+
+
+
 
