@@ -203,6 +203,20 @@ section{
     display: inline-block;
     margin-left: 10px;
 }
+
+@media(max-width:1100px){
+    .frase{
+        font-size: 1rem;
+        padding: 0 2rem;
+        height: 60vh;
+    }
+}
+
+@media(max-width:700px){
+    .frase{
+        font-size: .8rem;
+    }
+}
 /**/
 
 .fundo{
