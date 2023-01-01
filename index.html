@@ -4,152 +4,168 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lyris Dev</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
-    <header>
-        <nav class="nav-bar">
+    <header class="container">
+        <nav class="header">
             <div class="logo">
-                <h1>Logo</h1>
+                <p>Lyris - Desenvolvedora Front-End</p>
             </div>
-
-            <div class="nav-list">
+            <div class="header-menu">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                    <li><a href="#projeto" class="link-header">Projeto</a></li>
+                    <li><a href="#habilidade" class="link-header">Habilidade</a></li>
+                    <li><a href="#contato" class="link-destaque">Contato</a></li>
                 </ul>
             </div>
-
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><i class="fa-solid fa-bars"></i></button>
-            </div>
         </nav>
-
-        <div class="mobile-menu">
-            <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-            </ul>
-        </div>
     </header>
 
-    <main>
-        <div class="introducao">
-            <div>
-                <h1>Construindo a melhor experiência digital para seu produto.</h1>
-                <p>Sou completamente fascinada por desenvolvimento Front end, posso usar toda minha criatividade e trazer benefícios para o usuários na interface. Trabalho sempre buscando evolução, organização e otimização.</p>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+    <main class="container-main">
+        <div class="container-transparente">
+            <div class="main-introducao">
+                <h4>Seja Bem Vindo <strong>!</strong></h4>
+                <h1>Desenvolvedora Front-End <strong>!</strong></h1>
+                <p>Construindo a melhor experiência digital para seu produto.</p>
             </div>
         </div>
     </main>
 
-    <section class="fundo">
+    <section class="fundo" id="habilidade">
         <div class="habilidades">
-            <div>
-                <i class="fa-brands fa-html5"></i>
-                <p>HTML</p>
-            </div>
-            <div>
-                <i class="fa-brands fa-css3-alt"></i>
-                <p>CSS</p>
-            </div>
-            <div>
-                <i class="fa-brands fa-square-js"></i>
-                <p>Javascript</p>
-            </div>
-            <div>
-                <i class="fa-brands fa-react"></i>
-                <p>React</p>
+            <h1>habilidades Técnicas<strong>.</strong></h1>
+            <div class="habilidades-item">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js"></i>
+                    <p>Javascript</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <p>React</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section>
-        <div class="frase">
-            <h2>Me preocupo com cada detalhe na hora de construir interfaces valorizando a experiência para que ela impacte positivamente a vida dos usuários.</h2>
-
-            <div>
-                <p>Desenvolvimento Front End</p>
-                <p>UX / UI Designer</p>
+    <section class="container-sobre">
+        <div class="sobre-transparencia">
+            <div class="sobre">
+                <div>
+                    <h1>Sobre Mim <strong>.</strong></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus pariatur quisquam aut illo sunt, nulla iusto ex facilis soluta nemo molestias dignissimos fuga ullam earum vel. Voluptatibus at molestiae doloremque.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="fundo">
-        <h2>Projetos</h2>
-
-        <div class="projetos">
-            <div>
-                <img src="img/print.jpeg" alt="">
-                <p>No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
-                
+    <section class="container-projetos" id="projeto">
+        <div class="conteudo-projetos">
+            <h1>Projetos<strong>.</strong></h1>
+            <div class="projetos">
                 <div>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>FIGMA</li>
-                    <li class="botao"><a href="#">Visualizar projeto</a></li>
+                    <img src="img/print.jpeg" alt=" projeto food">
+                    <p>No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
+                
+                    <div>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>FIGMA</li>
+                        <li class="botao"><a href="https://lyrisnunes.github.io/site-delivery/">Visualizar projeto</a></li>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/print1.jpeg" alt="Projeto pizzaria">
+                    <p>No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
+                
+                    <div>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>FIGMA</li>
+                        <li class="botao"><a href="https://lyrisnunes.github.io/site-pizzaria/">Visualizar projeto</a></li>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/print2.jpeg" alt="Projeto curso de programação">
+                    <p>No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
+                
+                    <div>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>FIGMA</li>
+                        <li class="botao"><a href="https://lyrisnunes.github.io/goprogramar-curso/">Visualizar projeto</a></li>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/print3.jpeg" alt="Projeto hotel">
+                    <p>No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
+                
+                    <div>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>FIGMA</li>
+                        <li class="botao"><a href=" https://lyrisnunes.github.io/site-hotel/">Visualizar projeto</a></li>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/print4.jpeg" alt="Porjeto indercor">
+                    <p>No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
+                
+                    <div>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>FIGMA</li>
+                        <li class="botao"><a href="https://lyrisnunes.github.io/site-indercor/">Visualizar projeto</a></li>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/advogado.png" alt="Projeto busque um advogado">
+                    <p>No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
+                
+                    <div>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>FIGMA</li>
+                        <li class="botao"><a href="https://lyrisnunes.github.io/site-indercor/">Visualizar projeto</a></li>
+                    </div>
                 </div>
             </div>
-
-            <div>
-                <img src="img/print1.jpeg" alt="">
-                <p>No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
-                
-                <div>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>FIGMA</li>
-                    <li class="botao"><a href="#">Visualizar projeto</a></li>
-                </div>
-            </div>
-
-            <div>
-                <img src="img/print2.jpeg" alt="">
-                <p>No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
-                
-                <div>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>FIGMA</li>
-                    <li class="botao"><a href="#">Visualizar projeto</a></li>
-                </div>
-            </div>
-
-            <div>
-                <img src="img/print3.jpeg" alt="">
-                <p>No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
-                
-                <div>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>FIGMA</li>
-                    <li class="botao"><a href="#">Visualizar projeto</a></li>
-                </div>
-            </div>
-
-            <div>
-                <img src="img/print4.jpeg" alt="">
-                <p>No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
-                
-                <div>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>FIGMA</li>
-                    <li class="botao"><a href="#">Visualizar projeto</a></li>
-                </div>
-            </div>
-
-
-
         </div>
     </section>
+
+    <section class="container-contato" id="contato">
+        <div class="contato-transparencia">
+            <div class="contato">
+                <h1>Entre em contato comigo <strong>!</strong></h1>
+                <div class="contato-link">
+                    <div>
+                        <a href="https://github.com/lyrisnunes/"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/lyris-nunes-6a1976172/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
 
     
 
