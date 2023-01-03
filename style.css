@@ -297,7 +297,7 @@
     }
 
     .container-sobre{
-        height: 50vh;
+        height: 60vh;
     }
 
     .sobre-transparencia h1{
@@ -358,12 +358,18 @@
 }
 
 .projetos div .botao{
+    padding: .5rem;
     background-color: #171C24;
     color: #F9F9F9;
 }
 
 .projetos  .botao a{
+
     color: #F9F9F9;
+}
+
+.projetos .botao a:hover{
+    color: #A3FFBF;
 }
 
 @media(max-width:920px){
