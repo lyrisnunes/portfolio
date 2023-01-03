@@ -1,9 +1,9 @@
-function menuShow() {
-    let menuMobile = document.querySelector('.mobile-menu');
-    if (menuMobile.classList.contains('open')) {
-        menuMobile.classList.remove('open');
-
-    } else {
-        menuMobile.classList.add('open');
+ function abrirMenu(){
+    let menuMobile = document.querySelector('.header-mobile')
+        if(menuMobile.classList.contains('abrir')) {
+            menuMobile.classList.remove('abrir');
+        } else {
+            menuMobile.classList.add('abrir');
+        }
     }
-}
+ 
