@@ -63,6 +63,15 @@
 
 @media(max-width:800px){
 
+    .header{
+        padding: 1rem 1rem;
+    }
+
+    .logo{
+        flex-wrap: wrap;
+        font-size: .9rem;
+    }
+
     .link-header {
         display: none;
     }
@@ -95,6 +104,8 @@
     }
 
     .header-mobile .link-destaque{
+        background-color: #A3FFBF;
+        color: #171C24;
         display: block;
         padding: 1rem 2rem; 
     }
@@ -272,7 +283,7 @@
 
 .sobre p{
     color: #F9F9F9;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .sobre-transparencia strong{
@@ -286,7 +297,7 @@
     }
 
     .container-sobre{
-        height: 45vh;
+        height: 50vh;
     }
 
     .sobre-transparencia h1{
@@ -422,7 +433,7 @@
     margin: 0 auto;
     padding: 0 3rem;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -451,8 +462,12 @@
 
 @media(max-width:500px){
 
+    .container-contato{
+        height: 25vh;
+    }
+
     .contato h1{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     .contato i{
