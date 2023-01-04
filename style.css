@@ -21,6 +21,10 @@
     font-size: 1.1rem;
 }
 
+.logo strong{
+    color: #A3FFBF;
+}
+
 .header-menu ul{
     display: flex;
     align-items: center;
@@ -69,7 +73,7 @@
 
     .logo{
         flex-wrap: wrap;
-        font-size: .9rem;
+        font-size: .8rem;
     }
 
     .link-header {
@@ -140,12 +144,12 @@
 }
 
 .main-introducao h1{
-    font-size: 4rem;
+    font-size: 5rem;
     color: #F9F9F9;
 }
 
-.main-introducao h4{
-    color: #F9F9F9;
+.main-introducao strong{
+    color: #A3FFBF;
 }
 
 .main-introducao p{
@@ -153,6 +157,10 @@
 }
 
 @media(max-width:800px){
+
+    .container-main{
+        height: 65vh;
+    }
 
     .main-introducao{
         padding: 0 1rem;
@@ -164,13 +172,6 @@
 
     .main-introducao p{
         font-size: .9rem;
-    }
-}
-
-@media(max-width:630px){
-
-    .main-introducao h1{
-        font-size: 2.1rem;
     }
 }
 
@@ -358,13 +359,12 @@
 }
 
 .projetos div .botao{
-    padding: .5rem;
+    padding: .2rem;
     background-color: #171C24;
     color: #F9F9F9;
 }
 
 .projetos  .botao a{
-
     color: #F9F9F9;
 }
 
@@ -378,7 +378,6 @@
         background-color: #F9F9F9;
         margin: .4rem;
         padding: .5rem;
-        text-align: center;
     }
 
     .conteudo-projetos{
@@ -473,7 +472,7 @@
     }
 
     .contato h1{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .contato i{
