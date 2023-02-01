@@ -186,23 +186,31 @@
 @media(max-width:640px){
 
     .main-introducao h1{
-        font-size: 2.4rem;
+        font-size: 2.3rem;
     }
 }
 
 
-
 /**/
+
 
 .fundo{
     background-color: #171C24;
-    padding: 6rem 0;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.fundo .text-menor{
+    color: #F9F9F9;
+    font-size: 1rem;
+    padding-bottom:1rem ;
 }
 
 .habilidades{
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 3rem;
+    text-align: center;
 }
 
 .fundo strong{
@@ -250,7 +258,7 @@
 @media(max-width:580px){
 
     .fundo{
-        padding: 4rem 0;
+        padding: 1rem 0;
     }
 
     .fundo h1{
@@ -268,63 +276,6 @@
 
 /**/
 
-.container-sobre{
-    background-image: url(img/fundo.jpg);
-    background-position: center ;
-    background-repeat: no-repeat;
-    height: 35vh;
-}
-
-.sobre{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 3rem;
-}
-
-.sobre-transparencia{
-    background-color: #171c24c9;
-    height: 100%;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
-.sobre-transparencia h1{
-    text-align: left;
-    font-size: 3rem;
-    color: #F9F9F9;
-    margin-bottom: 1rem;
-}
-
-.sobre p{
-    color: #F9F9F9;
-    font-size: 1.1rem;
-}
-
-.sobre-transparencia strong{
-    color: #A3FFBF;
-}
-
-@media(max-width:580px){
-
-    .sobre{
-        padding: 0 1rem;
-    }
-
-    .container-sobre{
-        height: 60vh;
-    }
-
-    .sobre-transparencia h1{
-        font-size: 2rem;
-    }
-}
-
-/**/
-
 .container-projetos{
     background-color: #171C24;
     padding: 5rem 0;
@@ -337,7 +288,7 @@
 }
 
 .container-projetos h1{
-    text-align: left;
+    text-align: center;
     font-size: 3rem;
     color: #F9F9F9;
     margin-bottom: 3rem;
@@ -349,7 +300,7 @@
 
 .projetos{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
 }
 
 .projetos img{
@@ -399,10 +350,6 @@
 
     .conteudo-projetos{
         padding: 0 1rem;
-    }
-
-    .projetos{
-        grid-template-columns: repeat(2,1fr);
     }
 }
 
