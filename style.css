@@ -73,7 +73,7 @@
 
     .logo{
         flex-wrap: wrap;
-        font-size: .8rem;
+        font-size: .9rem;
     }
 
     .link-header {
@@ -129,6 +129,7 @@
 
 .container-main{
     background-image: url(img/fundo.jpg);
+    background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
     height: 75vh;
@@ -193,23 +194,15 @@
 
 /**/
 
-
 .fundo{
     background-color: #171C24;
-    padding: 3rem 0;
     text-align: center;
-}
-
-.fundo .text-menor{
-    color: #F9F9F9;
-    font-size: 1rem;
-    padding-bottom:1rem ;
+    padding: 2rem 0;
 }
 
 .habilidades{
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 3rem;
     text-align: center;
 }
 
@@ -221,7 +214,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
 }
 
 .habilidades div{
@@ -258,7 +251,7 @@
 @media(max-width:580px){
 
     .fundo{
-        padding: 1rem 0;
+        padding: 2rem 0;
     }
 
     .fundo h1{
@@ -278,7 +271,7 @@
 
 .container-projetos{
     background-color: #171C24;
-    padding: 5rem 0;
+    padding: 2rem 0;
 }
 
 .conteudo-projetos{
